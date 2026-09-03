@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Class Timetable</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: white;
+            text-align: center;
+        }
+
+        h2 {
+            margin-bottom: 5px;
+        }
+
+        h3 {
+            margin-top: 5px;
+        }
+
+        table {
+            width: 95%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            font-size: 14px;
+        }
+
+        th, td {
+            border: 2px solid #555;
+            padding: 12px 8px;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        th {
+            background-color: #eee;
+        }
+
+        .day {
+            background-color: #f2f2f2;
+        }
+
+        .lunch {
+            writing-mode: vertical-rl;
+            transform: rotate(180deg);
+            background-color: #f5f5f5;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>VASAVI COLLEGE OF ENGINEERING (AUTONOMOUS)</h2>
+    <h3>DEPARTMENT OF COMPUTER SCIENCE AND ENGINEERING</h3>
+    <h3>TIME TABLE (ROOM NO. R-301)</h3>
+    <h3>CLASS: B.E. V - SEMESTER (CSE-A)</h3>
+
+    <table>
+
+        <tr>
+            <th>TIME / DAY</th>
+            <th>9.40 AM<br>TO<br>10.40 AM</th>
+            <th>10.40 AM<br>TO<br>11.40 AM</th>
+            <th>11.40 AM<br>TO<br>12.40 PM</th>
+            <th>12.40 PM<br>TO<br>1.20 PM</th>
+            <th>1.20 PM<br>TO<br>2.20 PM</th>
+            <th>2.20 PM<br>TO<br>3.20 PM</th>
+            <th>3.20 PM<br>TO<br>4.20 PM</th>
+        </tr>
+
+        <tr>
+            <td class="day">MON</td>
+            <td colspan="2">IoT Lab (Lab-V)</td>
+            <td>Mentor / FSWD</td>
+            <td class="lunch" rowspan="6">LUNCH</td>
+            <td>OE</td>
+            <td>IoT</td>
+            <td>CN</td>
+        </tr>
+
+        <tr>
+            <td class="day">TUE</td>
+            <td>AI</td>
+            <td colspan="2">SDC-V(CS-II)</td>
+            <td>OE</td>
+            <td>CN</td>
+            <td>Sports/ FSWD</td>
+        </tr>
+
+        <tr>
+            <td class="day">WED</td>
+            <td>DT</td>
+            <td>AI</td>
+            <td>IoT</td>
+            <td>OE</td>
+            <td colspan="2">AI/ML Lab (Lab-V)</td>
+        </tr>
+
+        <tr>
+            <td class="day">THU</td>
+            <td>CN</td>
+            <td colspan="2">CN Lab (Project Lab)</td>
+            <td colspan="2">SDC-VI(TS-III)</td>
+            <td>DT</td>
+        </tr>
+
+        <tr>
+            <td class="day">FRI</td>
+            <td>IoT</td>
+            <td>AI</td>
+            <td>CN (T)</td>
+            <td>FSWD</td>
+            <td colspan="2">FSWD Lab (Project Lab)</td>
+        </tr>
+
+        <tr>
+            <td class="day">SAT</td>
+            <td>FSWD</td>
+            <td colspan="2">TBP-I / CISCO (Lab-V)</td>
+            <td colspan="2">ECA-II</td>
+            <td>IoT</td>
+        </tr>
+
+    </table>
+
+</body>
+</html>
